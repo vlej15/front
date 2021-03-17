@@ -1,0 +1,219 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+.banner-title { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+body {
+    background-color: #f6f5f5;
+}
+
+.contents{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+    word-break: keep-all;
+    max-height: 99999px;
+    min-height: 460px;
+    margin:0 auto;
+    margin-top: 150px;
+    padding: 0 0 100px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .7s ease-out;
+    transform-origin: 50% 50%;
+    transition-delay: .2s;
+    opacity: 1;
+    top: 0px;
+    width: 1200px;
+    margin-bottom: 400px;
+
+    .form-input {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #666;
+        word-break: keep-all;
+        max-height: 99999px;
+        margin: 0;
+        padding: 0;
+        margin-top: 50px !important;
+        width: 100%;
+        border-width: 1px 0 1px;
+        border-style: solid;
+        border-color: #222;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+}
+
+.banner{
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0;
+    word-break: break-all;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+    vertical-align: top;
+    }
+
+.banner-title {
+    color: #222;
+    line-height: 1.4;
+    letter-spacing: 0;
+    word-break: break-all;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+}
+
+
+
+.write-title, .type, .form-content, .file {
+    font-size: 14px;
+    color: #222;
+    margin: 0;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 15px 10px 15px 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #222;
+    cursor: pointer;
+}
+
+.write-subtitle{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    font-size: 16px;
+    letter-spacing: -0.1px;
+    color: #3c3c3c;
+}
+
+.required{
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    color: red;
+}
+
+.input-title {
+    width: 687px;
+    vertical-align: middle;
+    padding: 6px 15px;
+    background: #fafafa;
+    border: 1px solid #eaeaea;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    color: #222222;
+}
+
+.form-type {
+    font-size: 14px;
+    color: #222;
+    cursor: pointer;
+}
+
+.select {
+    font-size: 14px;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+span {
+    font-size: 16px;
+    color: #222;
+    cursor: pointer;
+    vertical-align: middle
+}
+
+.input-content {
+    width: 750px;
+    height: 300px;
+    padding: 6px 15px;
+    background: #fafafa;
+    border: 1px solid #eaeaea;
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    color: #222222;
+    resize: none;
+}
+
+.write-file {
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4;
+    word-break: keep-all;
+    font-size: 14px;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-btn {
+    font-size: 14px;
+    color: #222;
+    padding: 0;
+    width: 150px;
+    margin: 25px auto 0;
+    margin-bottom: 25px;
+}
+
+.submit {
+    font-style: normal;
+    font-weight: normal;
+    word-break: keep-all;
+    max-height: 99999px;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    transform-origin: 50% 50%;
+    width: 150px;
+    height: 50px;
+    background-color: #333333;
+    border: none;
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 5px;
+}
+
+.alert {
+ color :darkred;
+ font-size: 13px;
+}
+
+.alert2 {
+    color :darkred;
+    font-size: 13px;
+    margin: 7px 0 0 0;
+   }
