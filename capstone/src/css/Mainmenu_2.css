@@ -1,0 +1,190 @@
+
+
+body {
+    margin: auto;
+}
+
+.dHead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+.header-wrap {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #0f3057;
+    box-sizing: border-box;
+}
+
+.inner {
+    position: relative;
+    width: 1300px;
+    height: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header-wrap  h1 {
+    position: absolute;
+    margin: 0;
+    top: 30px;
+    left: 0;
+    width: 122px;
+    height: 45px;
+    z-index: 5;
+}
+
+.header-wrap  h1 > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+.header-wrap h1 > a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/Users/suu/Workspace/react-app/capstone/src/image/logo_3.png) left top no-repeat;
+    background-size: auto;
+}
+
+.header-wrap h1 > a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: url(/Users/suu/Workspace/react-app/capstone/src/image/logo_3.png) left bottom no-repeat;
+    background-size: auto;
+}
+
+.gub-wrap {
+    position: relative;
+    height: 120px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gub-wrap > ul {
+    padding-left: 260px;
+    margin: 0;
+}
+
+.gub-wrap > ul > li {
+    position: relative;
+    float: left;
+    height: 25px;
+    margin-top: 45px;
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.gub-wrap > ul > li > a {
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 2.3px;
+    transition: color 0.5s ease-out;
+    text-align: center;
+    width: 150px;
+    height: 15px;
+    border-right: 2px solid white;
+}
+
+.gub-wrap > ul > li:nth-last-child(1) > a {
+    border-right: none;
+}
+
+.sub {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+}
+
+.gub-wrap > ul > li:hover .sub {
+    display: block;
+}
+
+.sub .sub-list > ul {
+    padding: 10px 20px;
+    background:rgba(15, 48, 87, 0.6);
+    text-align: center;
+}
+
+.sub .sub-list > ul > li {
+    margin-top: 20px;
+    width: 110px;
+}
+
+.sub .sub-list > ul > li:first-child {
+    margin-top: 0;
+}
+
+.sub .sub-list > ul > li > a {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    white-space: nowrap;
+}
+
+.global-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.global-menu > li {
+    float: left;
+    height: 100px;
+}
+
+.global-menu > li:first-child {
+    padding-right: 10px;
+}
+
+.global-menu > li > a {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.join {
+    background-color: #394867;
+}
+

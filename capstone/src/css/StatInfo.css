@@ -1,0 +1,119 @@
+.main {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(51, 51, 51);
+    display: block;
+    cursor: default;
+    box-sizing: content-box !important;
+    background: rgb(255, 255, 255);
+}
+
+h2 {
+    letter-spacing: 0;
+    word-break: break-all;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: default;
+    text-align: left;
+    margin: 0px;
+    vertical-align: top;
+    font-weight: bold;
+    padding: 0 59px 0 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    padding-left: 40px;
+    background-color: #0f3057;
+    /* background-image: url('../../images/icon/icon_map_title.png'); */
+    background-position: 19px center;
+    background-repeat: no-repeat;
+}
+
+.middle {
+    color: #222;
+    cursor: default;
+    margin: 0px;
+    position: relative;
+    max-height: none;
+    padding: 30px 20px 20px 20px;
+    overflow-y: hidden;
+    background-color: #e7e7de;
+}
+
+.infomation {
+    color: #222;
+    font-family: 'Noto Sans', 'Malgun Gothic', dotum, gulim, verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0;
+    word-break: break-all;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: default;
+    text-align: left;
+    margin: 0px;
+    vertical-align: top;
+    padding: 16px 10px 31px 10px;
+    border-top: 1px solid #dcdcdc;
+}
+
+p {
+    color: #222;
+    font-family: 'Noto Sans', 'Malgun Gothic', dotum, gulim, verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    word-break: break-all;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: default;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    line-height: 21px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: right;
+}
+
+.btn01 ,.btn02{
+    font-family: 'Noto Sans', 'Malgun Gothic', dotum, gulim, verdana, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    word-break: break-all;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    list-style-type: none;
+    vertical-align: top;
+    cursor: pointer;
+    padding: 0 19px;
+    margin: 0 1px;
+    font-size: 16px;
+    line-height: 42px;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: block;
+    width: auto;
+    color: #fff;
+}
+
+.btn01 {
+    border: 1px solid #0f3057;
+    background-color: #0f3057;
+}
+
+.btn02 {
+    border: 1px solid #444649ec;
+    background-color: #444649ec;
+}
